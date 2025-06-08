@@ -4,7 +4,12 @@ namespace WinFormsApp2
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(GetPictureBox1());
+        }
+
+        private void picture_box(object sender, EventArgs e)
+        {
+
         }
     }
 }

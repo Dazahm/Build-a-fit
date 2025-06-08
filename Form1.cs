@@ -4,12 +4,13 @@ namespace WinFormsApp2
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(GetPictureBox1());
         }
 
         private void btn_upload(object sender, EventArgs e)
         {
-
+            
+          
         }
 
         private void btn_weather(object sender, EventArgs e)
@@ -27,9 +28,6 @@ namespace WinFormsApp2
 
         }
 
-        private void pic_box(object sender, EventArgs e)
-        {
-
-        }
-    }
+        
+       
 }
